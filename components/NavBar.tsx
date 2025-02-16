@@ -69,7 +69,7 @@ export default function NavBar() {
           <Link className="text-gray-900" href="/favorites">
             <Heart className="h-8 w-8 text-gray-900" />
           </Link>
-          <VerticalLine />
+          <VerticalLine color="bg-gray-200" />
           <Link className="relative" href="/cart">
             <SlHandbag className="h-8 w-8 text-gray-900" />
             <span className="absolute -right-2 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary-hard text-xs font-medium text-white">
@@ -121,7 +121,7 @@ export default function NavBar() {
           {/* Phone Number */}
           <div className="flex gap-2">
             <PhoneCall className="text-white" width={20} height={20} />
-            <p className="navbar-text text-white">(219) 555-0114</p>
+            <p className="body-text-md text-white">(219) 555-0114</p>
           </div>
         </div>
       </div>

@@ -87,10 +87,14 @@
 
 @layer components {
   .container {
-    @apply mx-auto max-w-[1320px];
+    @apply sm:mx-2 xl:mx-auto xl:max-w-[1320px];
   }
 
-  .navbar-text {
-    @apply leading-[21px] font-medium text-sm;
+  .body-text-md {
+    @apply text-sm font-medium leading-[21px];
+  }
+
+  .body-text-xl {
+    @apply text-xl font-medium leading-[30px];
   }
 }

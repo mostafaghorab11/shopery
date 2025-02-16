@@ -15,7 +15,7 @@ const selectVariants = cva(
     variants: {
       size: {
         sm: "text-xs leading-default font-normal gap-1.5 !text-gray-900 !hover:text-gray-600",
-        lg: "navbar-text gap-1",
+        lg: "body-text-md gap-1",
       },
       active: {
         true: "text-white hover:text-white",
